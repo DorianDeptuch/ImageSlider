@@ -12,8 +12,6 @@ let currentImage = 0;
 //separate behaviors into individual functions
 function toTheRight(){
   resetClasses();
-  clearInterval(timer);
-  timer = setInterval(toTheRight, 5000);
   
   if (currentImage == imagesArray.length - 1){
     imagesArray[0].scrollIntoView();
@@ -31,8 +29,6 @@ function toTheRight(){
 
 function toTheLeft(){
   resetClasses();
-  clearInterval(timer);
-  timer = setInterval(toTheRight, 5000);
 
   if (currentImage == 0){
     imagesArray[6].scrollIntoView();
@@ -73,4 +69,3 @@ function addNavFunctionality() {
 addNavFunctionality();
 rightArrow.onclick = toTheRight;
 leftArrow.onclick = toTheLeft;
-// let timer = setInterval(toTheRight, 5000);
