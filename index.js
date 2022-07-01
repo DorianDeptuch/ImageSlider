@@ -73,4 +73,4 @@ function addNavFunctionality() {
 addNavFunctionality();
 rightArrow.onclick = toTheRight;
 leftArrow.onclick = toTheLeft;
-let timer = setInterval(toTheRight, 5000);
+// let timer = setInterval(toTheRight, 5000);
