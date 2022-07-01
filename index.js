@@ -1,4 +1,3 @@
-const slideShowImages = document.querySelector('#slideShowImages');
 const leftArrow = document.querySelector('#leftArrow');
 const rightArrow = document.querySelector('#rightArrow');
 const images = document.querySelectorAll('.img'); 
